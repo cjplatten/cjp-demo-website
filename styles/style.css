@@ -1,4 +1,9 @@
 * {
-
+    font-display: Roboto;
    color: blue 
+}
+
+.title {
+    font-size: 40pt;
+    align-items: center;
 }
