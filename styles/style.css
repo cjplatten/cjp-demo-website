@@ -1,9 +1,25 @@
 * {
     font-family: Sans-serif;
-   color: blue 
+   color:#435191;
+   background-color: rgb(176, 202, 250); 
 }
 
 .title {
     font-size: 40pt;
     align-items: center;
+}
+
+.link-header,
+    a {
+    background-color: dodgerblue;
+    color:ghostwhite;
+}
+
+/* .link-header a {
+    background-color: dodgerblue;
+    color:ghostwhite;
+} */
+
+.link-header a:hover {
+    color: indigo;
 }
