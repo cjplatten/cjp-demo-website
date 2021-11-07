@@ -8,9 +8,19 @@ body {
   margin: 0;
 }
 
-.page-body {
-    margin: 1em;
+a {
+  color: rgb(70, 90, 131);
 }
+
+a:hover {
+  color: rgb(31, 53, 90);
+}
+
+.page-body {
+  margin: 2em;
+}
+
+/* ---------- Header ---------- */
 
 .title {
   font-size: 40pt;
@@ -35,23 +45,22 @@ body {
   background-color: rgb(87, 109, 151);
 }
 
-a {
-  color: blue;
-}
+/* ---------- Nav ---------- */
 
 .link-header {
   background-color: rgb(136, 158, 199);
-  padding: 1em;
+  padding: 0.7em;
   margin: 0em;
   display: flex;
   width: 100%;
   position: sticky;
+  top: 0;
   /* justify-content:  space-between;  */
 }
 .link-header a {
   text-decoration: none;
   background-color: rgb(136, 158, 199);
-  
+
   padding: 0.5em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -63,12 +72,12 @@ a {
 }
 
 .link-header a:hover {
-   color: rgb(87, 109, 151);
-  background-color: rgb(182, 200, 233)
+  color: rgb(87, 109, 151);
+  background-color: rgb(182, 200, 233);
 }
 
 .header-element {
-    background-color: rgb(136, 158, 199);
+  background-color: rgb(136, 158, 199);
 
   color: ghostwhite;
   list-style-type: none;
@@ -78,12 +87,32 @@ a {
   text-decoration: none;
 }
 
-/* .link-header a {
-    background-color: dodgerblue;
-    color:ghostwhite;
-} */
+/* ---------- Projects ---------- */
 
-a:hover {
+.projects {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
 
-  color: blue;
+.project-title {
+  background-color: rgb(225, 231, 243);
+  text-decoration: underline;
+}
+
+.single-project {
+  max-width: 350px;
+  margin: 1em;
+  list-style-type: none;
+  padding: 1em;
+  border: 3px solid rgb(217, 222, 233);
+  border-radius: 5px;
+  background-color: rgb(225, 231, 243);
+}
+
+.single-project li,
+.single-project p,
+.single-project h4,
+.single-project a {
+  background-color: rgb(225, 231, 243);
 }
