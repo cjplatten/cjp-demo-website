@@ -22,6 +22,7 @@ a:hover {
 
 /* ---------- Header ---------- */
 
+
 .title {
   font-size: 40pt;
   display: flex;
@@ -113,6 +114,12 @@ a:hover {
   .single-project {
     max-width: 80%;
     margin: 0em;
+
+  }
+  .project-img {
+    justify-self: center;
+    
+    max-width: 90%;
   }
 }
 
