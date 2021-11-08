@@ -55,13 +55,15 @@ a:hover {
   width: 100%;
   position: sticky;
   top: 0;
-  /* justify-content:  space-between;  */
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .link-header a {
   text-decoration: none;
   background-color: rgb(136, 158, 199);
-
   padding: 0.5em;
+  width: 100%;
   padding-top: 1em;
   padding-bottom: 1em;
   color: ghostwhite;
@@ -76,9 +78,12 @@ a:hover {
   background-color: rgb(182, 200, 233);
 }
 
+.header-element a {
+  font-size: large;
+}
+
 .header-element {
   background-color: rgb(136, 158, 199);
-
   color: ghostwhite;
   list-style-type: none;
   padding: 0.5em;
@@ -93,6 +98,7 @@ a:hover {
   display: flex;
   padding: 0;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .project-title {
@@ -100,8 +106,18 @@ a:hover {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 500px) {
+  .projects {
+    justify-content: center;
+  }
+  .single-project {
+    max-width: 80%;
+    margin: 0em;
+  }
+}
+
 .single-project {
-  max-width: 350px;
+  max-width: 325px;
   margin: 1em;
   list-style-type: none;
   padding: 1em;
