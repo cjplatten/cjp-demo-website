@@ -24,6 +24,10 @@
   color: white;
 }
 
+.Header h1 h2 {
+  text-decoration: none;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -53,4 +57,19 @@
 
 .nav-link :hover {
   background-color: #5baec5;
+}
+
+.infocard-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:center;
+}
+
+.infocard {
+  width: 45%;
+}
+
+.projects {
+  list-style: none;
 }
