@@ -1,7 +1,14 @@
-import React from 'react'
+import React from "react";
+import Contact from "./Contact";
+import Profile from "./Profile";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <Profile />
+      <Projects />
+      <Contact />
+    </div>
+  );
 }
